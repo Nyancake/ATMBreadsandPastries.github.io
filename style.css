@@ -26,7 +26,7 @@ body {
 }
 
 #parallax-image1 {
-    background-image: url(pictures/cake7.jpg);
+    background-image: url('pictures/cake7.jpg');
     height: 1000px;
     background-attachment: fixed;
     background-position: center;
@@ -35,7 +35,7 @@ body {
 }
 
 #parallax-image2 {
-    background-image: url(pictures/cake8.jpg);
+    background-image: url('pictures/cake8.jpg');
     height: 1000px;
     background-attachment: fixed;
     background-position: center;
@@ -44,7 +44,7 @@ body {
 }
 
 #parallax-image3 {
-    background-image: url(pictures/cake9.jpg);
+    background-image: url('pictures/cake9.jpg');
     height: 1000px;
     background-attachment: fixed;
     background-position: center;
@@ -53,7 +53,7 @@ body {
 }
 
 #parallax-image4 {
-    background-image: url(pictures/cake10.jpg);
+    background-image: url('pictures/cake10.jpg');
     height: 1000px;
     background-attachment: fixed;
     background-position: center;
@@ -62,7 +62,7 @@ body {
 }
 
 #parallax-image5 {
-    background-image: url(pictures/cake8.jpg);
+    background-image: url('pictures/cake8.jpg');
     height: 1000px;
     background-attachment: fixed;
     background-position: center;
