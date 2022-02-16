@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Lightbox-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <title>ATM</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome for Responsive Nav Bar-->
+    <script src="https://kit.fontawesome.com/cdcab460f6.js" crossorigin="anonymous"></script>
+
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <meta name="robots" content="noindex,follow" />
+
+    <!--Carousel-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+    <!--Testimonials-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+
+</head>
+
+<body>
+    <!--HOME-->
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top" style="font-family: Montserrat; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px;position: fixed; width: 100%;">
+        <div class="container-fluid" style="border-bottom-left-radius: 50px; border-bottom-right-radius: 50px;">
+            <a class="navbar-brand" href="#"><img src="Pictures/Logo.jpg" style="border-radius: 50%;" width="15%" height="15%" alt=""> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto" style="font-weight: bold;">
+                    <li class="nav-item active">
+                        <a class="navbar-link" href="#section1" style="color: black;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-link" href="#section2" style="color: black;">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-link" href="#section3" style="color: black;">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-link" href="#section4" style="color: black;">AboutUs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-link" href="#section5" style="color: black;">Testimonial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-link" href="#section6" style="color: black;">Video</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="section1">
+        <div class="container-fluid">
+            <!-- Home Slider Wrapper -->
+            <div class="css-slider-wrapper">
+                <input type="radio" name="slider" class="slide-radio1" checked id="slider_1">
+                <input type="radio" name="slider" class="slide-radio2" id="slider_2">
+                <input type="radio" name="slider" class="slide-radio3" id="slider_3">
+                <input type="radio" name="slider" class="slide-radio4" id="slider_4">
+
+                <!-- Slider Pagination -->
+                <div class="slider-pagination">
+                    <label for="slider_1" class="page1"></label>
+                    <label for="slider_2" class="page2"></label>
+                    <label for="slider_3" class="page3"></label>
+                    <label for="slider_4" class="page4"></label>
+                </div>
+
+                <!-- Slider #1 -->
+                <div class="slider slide-1">
+                    <img src="Pictures/cake1.jpg" alt="">
+                    <div class="slider-content">
+                        <h4>Welcome!</h4>
+                        <h2>This is ATM Breads and Pastries!</h2>
+                        <button type="button" class="buy-now-btn1" name="button" onclick="document.location='#section4'" style="padding-left: 43px;">Know Us More!</button>
+                    </div>
+                    <div class="number-pagination">
+                        <span>1</span>
+                    </div>
+                </div>
+
+                <!-- Slider #2 -->
+                <div class="slider slide-2">
+                    <img src="Pictures/cake3.jpg" alt="">
+                    <div class="slider-content">
+                        <h4>Your Custom Design</h4>
+                        <h2>We Make It A Reality!</h2>
+                        <button type="button" class="buy-now-btn2" name="button" onclick="document.location='#section2'" style="padding-left: 43px;">Go To Services</button>
+                    </div>
+                    <div class="number-pagination">
+                        <span>2</span>
+                    </div>
+                </div>
+
+                <!-- Slider #3 -->
+                <div class="slider slide-3">
+                    <img src="Pictures/cake4.jpeg" alt="">
+                    <div class="slider-content">
+                        <h4>Testimonials</h4>
+                        <h2>Read what our customers say!</h2>
+                        <button type="button" class="buy-now-btn3" name="button" onclick="document.location='#section5'">Go To Testimonials</button>
+                    </div>
+                    <div class="number-pagination">
+                        <span>3</span>
+                    </div>
+                </div>
+
+                <!-- Slider #4 -->
+                <div class="slider slide-4">
+                    <img src="Pictures/cake5.jpg" alt="">
+                    <div class="slider-content">
+                        <h4>Refreshingly Sweet</h4>
+                        <h2>Satisfy Your Cravings Here!</h2>
+                        <button type="button" class="buy-now-btn4" name="button" onclick="document.location='#section3'" style="padding-left: 23px;">Check our Menu</button>
+                    </div>
+                    <div class="number-pagination">
+                        <span>4</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="parallax-image1">
+        <div id="section2">
+            <!--Services-->
+            <div class="container" style="padding-top: 200px;">
+                <h1 class="header1" style="text-align: center; font-family: 'Montserrat'; color: whitesmoke; font-size: 60px; font-weight: bold;">OUR SERVICES</h1>
+                <div class="row padding">
+                    <div class="col-md-12" style="font-family: 'Montserrat';">
+                        <div class="card" style="background-color: #262626; border-radius: 5%;">
+                            <div class="card-body">
+                                <h3 class="card-title" style="color: whitesmoke;">CUSTOM DESIGNS!</h3>
+                                <p style="color: whitesmoke; text-align: center;">Present us your original design, and we will make it! Or you want a themed cake, we can do that also! Prices differ depending on the difficulty and the material used.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12" style="font-family: 'Montserrat';">
+                        <div class="card" style="background-color: #262626; border-radius: 5%;">
+                            <div class="card-body">
+                                <h3 class="card-title" style="color: whitesmoke;">DELIVERIES!</h3>
+                                <p style="color: whitesmoke; text-align: center;">Sadly, this is not a walk-in store. But we deliver your pastries all around Meycauayan on time and no delays!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12" style="font-family: 'Montserrat';">
+                        <div class="card" style="background-color: #262626; border-radius: 5%;">
+                            <div class="card-body">
+                                <h3 class="card-title" style="color: whitesmoke;">HOW TO ORDER?</h3>
+                                <p style="color: whitesmoke; font-size: 25px; text-align: center;">
+                                    <a href="https://www.facebook.com/ATM-Breads-and-Pastries-101048895648348">
+                                       MESSAGE US ON &#160; <i class="fab fa-facebook-f">&#160;</i> ATM Breads and Pastries</a>
+                                    <br>
+                                    <a>CALL US&#160; <i class="fas fa-phone"></i> &#160; Contact: &#160; 09985569721 / 09455864997</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="parallax-image2">
+        <div id="section3">
+            <!--Products-->
+            <div class="products" style="margin: 50px;">
+                <div>
+                    <h1 style="text-align: center; padding-top: 50px; font-family: 'Montserrat'; font-size: 60px;color: whitesmoke; font-weight: bold;">PRODUCTS</h1>
+                </div>
+                <div class="container-products">
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                            <li data-target="#demo" data-slide-to="3"></li>
+                        </ul>
+
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <p style="text-align: center; padding-top: 20px; font-family: 'Montserrat'; font-size: 30px;color: whitesmoke;">Cake</p>
+                                <a href="Pictures/Price Cakes.jpg" class="fancybox" data-fancybox="gallery1">
+                                    <img src="Pictures/1.jpg" alt="" width="100%" height="100%" style="border-radius: 5%;">
+                                </a>
+
+                            </div>
+                            <div class="carousel-item">
+                                <p style="text-align: center; padding-top: 20px; font-family: 'Montserrat'; font-size: 30px;color: whitesmoke;">Cheesecake</p>
+                                <a href="Pictures/Price Cheesecake.jpg" class="fancybox" data-fancybox="gallery1">
+                                    <img src="Pictures/2.jpg" alt="" width="100%" height="100%" style="border-radius: 5%;">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <p style="text-align: center; padding-top: 20px; font-family: 'Montserrat'; font-size: 30px;color: whitesmoke;">Cupcakes</p>
+                                <a href="Pictures/Price Cupcake.jpg" class="fancybox" data-fancybox="gallery1">
+                                    <img src="Pictures/3.jpg" alt="" width="100%" height="100%" style="border-radius: 5%;">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <p style="text-align: center; padding-top: 20px; font-family: 'Montserrat'; font-size: 30px;color: whitesmoke;">Brownies</p>
+                                <a href="Pictures/Price Br.jpg" class="fancybox" data-fancybox="gallery1">
+                                    <img src="Pictures/6.jpeg" alt="" width="100%" height="100%" style="border-radius: 5%;">
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="parallax-image3">
+        <div id="section4">
+            <!--About Us-->
+            <section class="p-5">
+                <div class="container">
+                    <h1 class="header">ABOUT US</h1>
+                    <div class="row text-center">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 " style="padding-top: 30px;">
+                            <div class="card-size">
+                                <img src="Pictures/Logo.jpg" style="border-radius: 10%; align-items: center; width: 90%; height: 90%;" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
+                            <div class="card bg-dark text-light" style="border-radius: 25%;">
+                                <div class="card-body text-center">
+                                    <div class="card-size">
+                                        <h3>History</h3>
+                                        <p style="font-size: 25px;">ATM Breads and Pastries is owned by Christelle Berboso Mangalindan. ATM Breads and Pastries started out as a simple Sari-Sari store under the management of Christelle's grandparents. When they passed away, Christelle
+                                            inherited the Sari Sari Store business and is now currently managing it. When she learned how to make breads and pastries, she established ATM Breads and Pastries as an extension business alongside the pre-existing
+                                            Sari Sari Store.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <h3 style="padding-top:5px; font-size: 60px; color: black;">LOCATION</h3>
+                            <div class="card-body text-center">
+                                <div class="card-size">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d405.5476111551729!2d120.97959733417078!3d14.7554569999657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b2227a3b1feb%3A0x90d30edcc5d7a6d3!2sAtm%20Store!5e0!3m2!1sen!2sph!4v1644934343361!5m2!1sen!2sph"
+                                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div id="parallax-image4">
+        <div id="section5">
+            <!--Testimodials-->
+            <div style="padding-top: 200px;">
+                <div class="container rounded" id="testimonials">
+                    <h1 class="text-center head" style="color: black; font-family:'Montserrat';font-weight: bold; font-size: 60px; padding-top: 30px;">TESTIMONIALS</h1>
+                    <div class="owl-carousel owl-theme" style="padding-top: 35px;">
+                        <div class="owl-item">
+                            <div class="card d-flex flex-column">
+                                <div class="mt-2"> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star-half-alt active-star"></span>                                    </div>
+                                <div class="testimonial" style="text-align: justify; padding-left: 10px; padding-right: 10px;"> Thank you sa masarap na cupcakes! Sakto lang ang tamis. Naiyak anak ko di lang navideonhan hehe &hearts; &#128591; &#128522; </div>
+                                <div class="d-flex flex-row profile pt-4 mt-auto"> <img src="Pictures/Emoji1.png" alt="" class="rounded-circle">
+                                    <div class="d-flex flex-column pl-2">
+                                        <div class="name">Justin</div>
+                                        <p class="text-muted designation">Customer 1</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="card d-flex flex-column">
+                                <div class="mt-2"> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star-half-alt active-star"></span>                                    </div>
+                                <div class="testimonial" style="text-align: justify; padding-left: 10px; padding-right: 10px;"> Masarap! Hahahaha natikman na namin cupcake, yung blueberry pinapalamig ko pa hahaha </div>
+                                <div class="d-flex flex-row profile pt-4 mt-auto"> <img src="Pictures/Emoji2.png" alt="" class="rounded-circle">
+                                    <div class="d-flex flex-column pl-2">
+                                        <div class="name">Eryca</div>
+                                        <p class="text-muted designation">Customer 2</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="card d-flex flex-column">
+                                <div class="mt-2"> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star-half-alt active-star"></span>                                    </div>
+                                <div class="testimonial" style="text-align: justify; padding-left: 10px; padding-right: 10px;"> Hi Telle good morning, masarap nga yung cheesecake mo, nagustuhan din nila. Yung cupcake, naubos ng mga bata. </div>
+                                <div class="d-flex flex-row profile pt-4 mt-auto"> <img src="Pictures/Emoji3.jpg" alt="" class="rounded-circle">
+                                    <div class="d-flex flex-column pl-2">
+                                        <div class="name">Robert</div>
+                                        <p class="text-muted designation">Customer 3</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item">
+                            <div class="card d-flex flex-column">
+                                <div class="mt-2"> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span> <span class="fas fa-star-half-alt active-star"></span>                                    </div>
+                                <div class="testimonial" style="text-align: justify; padding-left: 10px; padding-right: 10px;"> Ang sarap po ng cake and pastries nyo nakakatuwa, kalevel halos ng mga kilalang shop </div>
+                                <div class="d-flex flex-row profile pt-4 mt-auto"> <img src="Pictures/Emoji4.png" alt="" class="rounded-circle">
+                                    <div class="d-flex flex-column pl-2">
+                                        <div class="name">Eunice</div>
+                                        <p class="text-muted designation">Customer 4</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="parallax-image5">
+        <div id="section6">
+            <center>
+                <iframe width="1280" height="720" src="Pictures/Refreshing.mp4"></iframe>
+            </center>
+        </div>
+    </div>
+    <div>
+        <footer style="background-color: black;">
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">
+                <a style="color: white;">© 2020 Copyright:</a>
+                <a href="#section1"> ATM Breads and Pastries</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </div>
+
+</body>
+
+</html>
